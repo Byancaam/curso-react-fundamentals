@@ -4,6 +4,7 @@ import FirstComponent from './components/FirstComponent';
 import Hooks from './components/Hooks';
 import Images from './components/Images';
 import List from './components/List';
+import RenderCond from './components/RenderCond'
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <FirstComponent />
       <AnotherComponent />
       <Images />
-      <Hooks/>
-      <List/>
+      <Hooks />
+      <List />
+      <RenderCond />
     </div>
   );
 }
